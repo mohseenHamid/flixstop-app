@@ -40,7 +40,7 @@ function Navbar() {
 							Search
 						</NavLink>
 					</li>
-					<li className="nav-item dropdown favourites-dropdown">
+					{/* <li className="nav-item dropdown favourites-dropdown">
 						<a className="nav-link dropdown-toggle" id="navbarDropdown">
 							<h3 className="nav-favourites-item">Favourites</h3>
 						</a>
@@ -52,7 +52,7 @@ function Navbar() {
 								Actors
 							</a>
 						</div>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 		</nav>
