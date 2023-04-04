@@ -13,7 +13,7 @@ function Search() {
 
 	const handleFormSubmit = (event) => {
 		event.preventDefault();
-		console.log(`You searched for: ${searchTerm}`);
+		setSearchResults(() => console.log(`You searched for: ${searchTerm}`));
 	};
 
 	return (
