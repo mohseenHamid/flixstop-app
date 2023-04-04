@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Discover from "./pages/Discover";
-import About from "./pages/About";
+import MainPage from "./pages/MainPage";
 import Search from "./pages/Search";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -15,8 +15,8 @@ function App() {
 				<Navbar />
 				<Wrapper>
 					<Routes>
-						<Route path="/" element={<About />} />
-						<Route path="/about" element={<About />} />
+						<Route path="/" element={<MainPage />} />
+						<Route path="/home" element={<MainPage />} />
 						<Route path="/discover" element={<Discover />} />
 						<Route path="/search" element={<Search />} />
 					</Routes>
